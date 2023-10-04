@@ -99,7 +99,7 @@ def calcular():
     valor_texto.set(resultado)
     todos_valores = ""
 
-################# Buttons ####################
+################# Buttons ######################
 
 b_1 = Button(frame_quadros,command = lambda: entrar_valor('%'), text="C", width=11, height=2, bg=co3, fg=fundo,font=('Arial 13 bold'),relief=RAISED, overrelief=RIDGE)
 b_1.place(x=0, y=0)
